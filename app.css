@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f5d9d5;
+    font-family: Nunito,sans-serif;
+    overflow-x: hidden;
+
+}
+#mainNavbar{
+    font-size: 1.3rem;
+    font-weight: 400px;
+}
+#mainNavbar .nav-link{
+    color: white;
+}
+#mainNavbar .nav-link:hover{
+    color: #EA1C2C;
+}
+#mainNavbar .navbar-brand{
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+#headingGroup span{
+    color: #EA1C2C;
+}
+#headingGroup h1{
+    font-weight: 400px;
+    font-size: 3rem;
+}
+
+.blurb h2{
+    color: #EA1C2C;
+    font-weight: 400px;
+    font-size: 2rem;
+}
+.blurb p{
+    color: #f498b8;
+    font-weight: 400px;
+    font-size: 1.2rems;
+    line-height: 2;
+}
+
+.content{
+    margin-top: 100px;
+}
+
+.navbar.scrolled{
+    background-color: rgb(222,192,222);
+    transition: background-color .7s;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1,.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer p{
+    color: #EA1C2C;
+    background-color: rgb(255, 219, 219);
+    font-size: 25px;
+    margin: .3em ;
+    padding: 0px 0.5em;
+    border-radius: 1em;
+    word-spacing: 0.4em;
+    border: 1px solid white;
+}
+.footer p:hover{
+    background-color: rgb(255, 227, 227);
+    cursor: pointer;
+}
+
+.footer img{
+    height: 1.3em;
+
+}
+
+
+@media(max-width:1200px){
+    #headingGroup h1{
+        font-weight: 400;
+        font-size: 2.5rem;
+    }
+
+}
+
+@media(max-width:1000px){
+    .footer p{
+        font-size: 20px;
+    }
+}
+@media(max-width:800px){
+    .footer p{
+        font-size: 18px;
+    }
+}
+@media(max-width:650px){
+    .footer p{
+        font-size: 18px;
+    }
+    .row1,.row2{
+        flex-direction: column;
+    }
+}
